@@ -1,0 +1,32 @@
+:root {
+    --mycolor001: #E3A6A1;
+    --mycolor002: #BC5F6A;
+    --mycolor003: #19B3B1;
+    --mycolor004: #034B61;
+
+    --mycolor005: #E1DCD9;
+    --mycolor006: #8F8681;
+    --mycolor007: #a67f78;
+    --mycolor008: #32435F;
+
+   
+}
+.demo{
+    border: 2px solid var(--mycolor004) ;
+    padding: 30px;
+    margin: 30px;
+    width: 100%;
+    background-color: var(--mycolor003)
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;700;900 & display =swap') ;
+
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.fw-700{
+    font-weight: 700;
+}
+.fw-900{
+    font-weight: 900;
+}

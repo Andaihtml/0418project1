@@ -1,0 +1,31 @@
+:root{
+    /* 01.甜膩瑪瑙(Mellow Agate) */
+    --mycolor001: #FFD954;
+    --mycolor002: #E4B660;
+    --mycolor003: #F2AB39;
+    --mycolor004: #69491A;
+
+    /* 02.薄霧綠(Misty Greens) */
+    --mycolor001: #D1EDE1;
+    --mycolor002: #7BC5AE;
+    --mycolor003: #028C6A;
+    --mycolor004: #003E19;
+
+    /* 03.憂鬱植物藍(Subdued Succulent) */
+    --mycolor001: #D1DDDB;
+    --mycolor002: #85B8CB;
+    --mycolor003: #1D6A96;
+    --mycolor004: #283B42;
+
+    /* 04.西部風格(Western Wear) */
+    --mycolor001: #D5D2C1;
+    --mycolor002: #BD8E62;
+    --mycolor003: #A46843;
+    --mycolor004: #370D00;
+
+    /* 05.翡翠花園(Emerald Garden) */
+    --mycolor001: #9bcfb8;
+    --mycolor002: #7fb174;
+    --mycolor003: #689C97;
+    --mycolor004: #072A24;
+}
