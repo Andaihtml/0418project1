@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/mycss.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+        .box{
+            width: 150px;
+            height: 150px;
+            background-color: #2689d9;
+            border: 2px solid red;
+            display: inline-block
+        }
+        .box01{
+            width: 200px;
+            height: 150px;
+            background-color: #2689d9;
+            border: 2px solid red;
+            display: inline-block
+        }
+    </style>
+</head>
+<body>
+    <div class="demo bg-secondary">
+        <div class="fs-2 fw-900">1.Accordion<i class="bi bi-umbrella-fill text-info " style="font-size: 4rem;"></i></div>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  商品介紹 #1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+        
+    </div>
+    <div class="demo bg-secondary">
+        <div class="fs-2 fw-900"></i>2.Alert+Icon<i class="bi bi-universal-access-circle" style="font-size: 5rem; font-weight: 900;"></i></div>
+        <div class="alert alert-primary" role="alert">
+            A simple primary alert—check it out!
+        </div>
+        <div class="alert alert-primary" role="alert">
+            A simple primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+        </div>
+
+        <div class="alert alert-secondary" role="alert">
+        A simple secondary alert—check it out!
+        </div>
+        <div class="alert alert-secondary" role="alert">
+        A simple secondary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+        </div>
+        <div class="alert alert-success" role="alert">
+        A simple success alert—check it out!
+        </div>
+        <div class="alert alert-success" role="alert">
+            A simple success alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+        </div>
+        <div class="alert alert-danger" role="alert">
+        A simple danger alert—check it out!
+        </div>
+        <div class="alert alert-warning" role="alert">
+        A simple warning alert—check it out!
+        </div>
+        <div class="alert alert-info" role="alert">
+        A simple info alert—check it out!
+        </div>
+        <div class="alert alert-light" role="alert">
+        A simple light alert—check it out!
+        </div>
+        <div class="alert alert-dark" role="alert">
+        A simple dark alert—check it out!
+        </div>
+    </div>
+    <div class="demo bg-secondary">
+        <div class="fs-2 fw-900">3.Badges</div>
+        <span class="badge text-bg-success">success</span>
+        <span class="badge text-bg-warning">warning</span>
+        <button class="btn btn-danger">加入購物車
+            <span class="badge text-bg-secondary">9</span>
+        </button>
+        <button class="btn btn-primary">福華飯店
+            <span class="badge text-bg-dark">5</span>
+        </button>
+        <button class="btn btn-primary position-relative">訊息
+            <span class="badge text-bg-danger position-absolute top-0 start-100 translate-middle">199</span>
+        </button>
+    </div>
+
+    <div class="demo text-light">
+        <div class="fs-2 fw-900">4.border</div>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Library</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Data</li>
+            </ol>
+        </nav>
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Library</li>
+            </ol>
+        </nav>
+    </div>
+
+    <div class="demo ">
+        <div class="fs-2 fw-900">5.Button</div>
+        <button class="btn btn-primary">primary</button>
+        <button class="btn btn-warning">warning</button>
+        <button class="btn btn-success">success</button>
+        <hr>
+        <a href="#" class="btn btn-primary">primary</a>
+        <input type="button" type="button" class="btn btn-primary" value="input primary">
+        <input type="button" type="submit" class="btn btn-primary" value="submit primary">
+        <input type="button" type="reset" class="btn btn-primary" value="reset primary">
+        <hr>
+        <button class="btn btn-outline-primary">primary</button>
+        <button class="btn btn-outline-warning">warning</button>
+        <button class="btn btn-outline-success">success</button>
+        <button class="btn btn-outline-danger">danger</button>
+        <button class="btn btn-outline-info">info</button>
+        <hr>
+        <div class="fs-4">大小 +不讓人家點</div>
+        <button class="btn btn-primary btn-lg">btn-lg</button>
+        <button class="btn btn-primary">primary</button>
+        <button class="btn btn-primary btn-sm">btn-sm</button>
+        <button class="btn btn-danger" disabled>售完</button>
+        <hr>
+        <div class="fs-4">d-grid gap-2</div>
+        <div class="d-grid gap-2">
+        <button class="btn btn-outline-danger">danger</button>
+        <button class="btn btn-outline-info">info</button>
+        </div>
+        <hr >
+        <div class="fs-4">responsive</div>
+        <div class="d-grid gap-2 d-md-block">
+            <button class="btn btn-outline-danger">danger</button>
+            <button class="btn btn-outline-info">info</button>
+        </div>
+        <hr>
+        <div class="fs-4">mx-auto</div>
+        <div class="d-grid gap-2 col-3 mx-auto">
+            <button class="btn btn-outline-danger">danger</button>
+            <button class="btn btn-outline-info">info</button>
+        </div>
+        <hr>
+        <div class="fs-4">d-flex justify-content-md-end</div>
+        <div class="d-grid gap-2 d-flex justify-content-md-end">
+            <button class="btn btn-outline-danger">danger</button>
+            <button class="btn btn-outline-info">info</button>
+        </div>
+        
+
+    </div>
+
+    <div class="demo bg-secondary">
+        <div class="fs-2 fw-900">6.Card</div>
+        <div class="card col-6">
+            <img src="./img/01.jpg" class="card-img-top" alt="">
+            <div class="card body">
+                <div class="card-title fs-4 " style=" font-weight: bold;">
+                    咖啡品項
+                </div>
+                <div class="card-text">
+                    存款作業根據我對是我，完善商標表示觀看一道加強大陸力道版主具備進口垃圾，幹什麼生日一片以外因素看了包含未來我是組織一遍提出了，山西模組是從帶著是不是硬盤，大概春節最多法院台北發展實用，基層新人因而員工晚上是我，通知打我想專區三人線上意味着版本論文，地。
+                </div>
+                <!-- <a href="#" class="btn btn-success mx-auto" >預約</a> -->
+                <div class="d-grid d-flex m-auto col-3">
+                    <a href="#" class="btn btn-success " >預約</a>
+                </div>
+            <hr>
+
+                
+            </div>
+            
+
+        </div>
+        <hr>
+        <div class="fs-4">註解</div>
+        <div class="card col-6">
+            <img src="./img/02.jpg" class="card-img-top " alt="" style="height: 500px;">
+            <div class="card-header text-bg-info">綜合排版</div>
+            <div class="card-body">
+                <div class="card-tittle">餐廳聚餐場所</div>
+                <div class="card-text">
+                    <h6>價格:200元/人</h6>
+                    <h6>設備:
+                        <span class="badge text-bg-secondary">投影機</span>
+                        <span class="badge text-bg-danger">茶水</span>
+                        <span class="badge text-bg-warning">冰箱</span>
+                    </h6>
+                </div>
+            </div>
+            <div class="card" >
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">An item</li>
+                  <li class="list-group-item">A second item</li>
+                  <li class="list-group-item">A third item</li>
+                </ul>
+              </div>
+            <div class="card-footer text-bg-warning">頁尾</div>
+        </div>
+        <hr>
+        <div class="fs-4">Navigation</div>
+        <div class="card text-center col-6">
+            <div class="card-header">
+              <ul class="nav nav-tabs card-header-tabs">
+                <li class="nav-item" id="nav01">
+                  <a class="nav-link " aria-current="true" >焦點</a>
+                </li>
+                <li class="nav-item" id="nav02">
+                  <a class="nav-link " >娛樂</a>
+                </li>
+                <li class="nav-item" id="nav03">
+                  <a class="nav-link ">體育</a>
+                </li>
+              </ul>
+            </div>
+            <div class="card-body" id="navdata">
+                <div class="row ">
+                    <div class="col-md-7">
+                        <img src="./img/cake01.jpg" class="img-fluid mb-1" alt="">
+                        <div class="row">
+                            <div class="col-md-6 pe-1">
+                                <img src="./img/cake02.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="col-md-6 ps-1">
+                                <img src="./img/cake06.jpg" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 text-start">
+                        <h6><a href="" class="fw-900"><i class="bi bi-play-circle-fill"></i>好了夢想傳播心情，痛苦彼。</a></h6>
+                        <p class="text-truncate">萬華活動長期偉大觀察一時背景不太空間內置門派規劃以為英語，上午生命求購有的眼光就業，觀念一次我要有個魔獸不對，寫真自主做好業主請點擊出租基金請您一方面。</p>
+                        <h6><a href="" class="fw-900">好了夢想傳播心情，痛苦彼。</a></h6>
+                        <p class="text-truncate">萬華活動長期偉大觀察一時背景不太空間內置門派規劃以為英語，上午生命求購有的眼光就業，觀念一次我要有個魔獸不對，寫真自主做好業主請點擊出租基金請您一方面。</p>
+                        <h6><a href="" class="fw-900">好了夢想傳播心情，痛苦彼。</a></h6>
+                        <p class="text-truncate">萬華活動長期偉大觀察一時背景不太空間內置門派規劃以為英語，上午生命求購有的眼光就業，觀念一次我要有個魔獸不對，寫真自主做好業主請點擊出租基金請您一方面。</p>
+                        <h6><a href="" class="fw-900">好了夢想傳播心情，痛苦彼。</a></h6>
+                        <p class="text-truncate">萬華活動長期偉大觀察一時背景不太空間內置門派規劃以為英語，上午生命求購有的眼光就業，觀念一次我要有個魔獸不對，寫真自主做好業主請點擊出租基金請您一方面。</p>
+                        <h6><a href="" class="fw-900">好了夢想傳播心情，痛苦彼。</a></h6>
+                        <p class="text-truncate">萬華活動長期偉大觀察一時背景不太空間內置門派規劃以為英語，上午生命求購有的眼光就業，觀念一次我要有個魔獸不對，寫真自主做好業主請點擊出租基金請您一方面。</p>
+                        <h6><a href="" class="fw-900">好了夢想傳播心情，痛苦彼。</a></h6>
+                        <p class="text-truncate">萬華活動長期偉大觀察一時背景不太空間內置門派規劃以為英語，上午生命求購有的眼光就業，觀念一次我要有個魔獸不對，寫真自主做好業主請點擊出租基金請您一方面。</p>
+                        
+                    </div>
+                </div>
+                
+              <!-- <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+        </div>
+    </div>
+    <div class="demo bg-secondary">
+        <div class="fs-2 fw-900">.border</div>
+    </div>
+    <div class="demo bg-secondary">
+        <div class="fs-2 fw-900">1.border</div>
+    </div>
+    <div class="demo bg-secondary">
+        <div class="fs-2 fw-900">1.border</div>
+    </div>
+    <div class="demo bg-secondary">
+        <div class="fs-2 fw-900">1.border</div>
+    </div>
+
+
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery-3.6.4.min.js"></script>
+    <script>
+        $(function(){
+            $("#nav01").hover(function(){
+                console.log("nav01");
+                $("#nav01 a").addClass("active");
+                $("#nav02 a").removeClass("active");
+                $("#nav03 a").removeClass("active");
+
+                var strHTML = '<div class="row"><div class="col-md-7"><img src="./img/cake01.jpg" class="img-fluid mb-1" alt=""><div class="row"><div class="col-md-6 pe-1"><img src="./img/cake02.jpg" class="img-fluid" alt=""></div><div class="col-md-6 ps-1"><img src="./img/cake06.jpg" class="img-fluid" alt=""></div></div></div><div class="col-md-5 text-start"><h6><a href="" class="fw-900"><i class="bi bi-play-circle-fill"></i>好了夢想傳播心情，痛苦彼。</a></h6><p class="text-truncate">萬華活動長期偉大觀察一時背景不太空間內置門派規劃以為英語，上午生命求購有的眼光就業，觀念一次我要有個魔獸不對，寫真自主做好業主請點擊出租基金請您一方面。</p><h6><a href="" class="fw-900">好了夢想傳播心情，痛苦彼。</a></h6><p class="text-truncate">萬華活動長期偉大觀察一時背景不太空間內置門派規劃以為英語，上午生命求購有的眼光就業，觀念一次我要有個魔獸不對，寫真自主做好業主請點擊出租基金請您一方面。</p><h6><a href="" class="fw-900">好了夢想傳播心情，痛苦彼。</a></h6><p class="text-truncate">萬華活動長期偉大觀察一時背景不太空間內置門派規劃以為英語，上午生命求購有的眼光就業，觀念一次我要有個魔獸不對，寫真自主做好業主請點擊出租基金請您一方面。</p><h6><a href="" class="fw-900">好了夢想傳播心情，痛苦彼。</a></h6><p class="text-truncate">萬華活動長期偉大觀察一時背景不太空間內置門派規劃以為英語，上午生命求購有的眼光就業，觀念一次我要有個魔獸不對，寫真自主做好業主請點擊出租基金請您一方面。</p><h6><a href="" class="fw-900">好了夢想傳播心情，痛苦彼。</a></h6><p class="text-truncate">萬華活動長期偉大觀察一時背景不太空間內置門派規劃以為英語，上午生命求購有的眼光就業，觀念一次我要有個魔獸不對，寫真自主做好業主請點擊出租基金請您一方面。</p><h6><a href="" class="fw-900">好了夢想傳播心情，痛苦彼。</a></h6><p class="text-truncate">萬華活動長期偉大觀察一時背景不太空間內置門派規劃以為英語，上午生命求購有的眼光就業，觀念一次我要有個魔獸不對，寫真自主做好業主請點擊出租基金請您一方面。</p></div></div>';
+                
+                $("#navdata").html(strHTML);
+                
+            });
+            $("#nav02").hover(function(){
+                console.log("nav02");
+                $("#nav01 a").removeClass("active");
+                $("#nav02 a").addClass("active");
+                $("#nav03 a").removeClass("active");
+
+                var strHTML = '<div class="row"><div class="col-md-7"><img src="./img/cake02.jpg" class="img-fluid mb-1" alt=""><div class="row"><div class="col-md-6 pe-1"><img src="./img/cake07.jpg" class="img-fluid" alt=""></div><div class="col-md-6 ps-1"><img src="./img/cake06.jpg" class="img-fluid" alt=""></div></div></div><div class="col-md-5 text-start"><h6><a href="" class="fw-900"><i class="bi bi-play-circle-fill"></i>好了夢想傳播心情，痛苦彼。</a></h6><p class="text-truncate">萬華活動長期偉大觀察一時背景不太空間內置門派規劃以為英語，上午生命求購有的眼光就業，觀念一次我要有個魔獸不對，寫真自主做好業主請點擊出租基金請您一方面。</p><h6><a href="" class="fw-900">好了夢想傳播心情，痛苦彼。</a></h6><p class="text-truncate">萬華活動長期偉大觀察一時背景不太空間內置門派規劃以為英語，上午生命求購有的眼光就業，觀念一次我要有個魔獸不對，寫真自主做好業主請點擊出租基金請您一方面。</p><h6><a href="" class="fw-900">好了夢想傳播心情，痛苦彼。</a></h6><p class="text-truncate">萬華活動長期偉大觀察一時背景不太空間內置門派規劃以為英語，上午生命求購有的眼光就業，觀念一次我要有個魔獸不對，寫真自主做好業主請點擊出租基金請您一方面。</p><h6><a href="" class="fw-900">好了夢想傳播心情，痛苦彼。</a></h6><p class="text-truncate">萬華活動長期偉大觀察一時背景不太空間內置門派規劃以為英語，上午生命求購有的眼光就業，觀念一次我要有個魔獸不對，寫真自主做好業主請點擊出租基金請您一方面。</p><h6><a href="" class="fw-900">好了夢想傳播心情，痛苦彼。</a></h6><p class="text-truncate">萬華活動長期偉大觀察一時背景不太空間內置門派規劃以為英語，上午生命求購有的眼光就業，觀念一次我要有個魔獸不對，寫真自主做好業主請點擊出租基金請您一方面。</p><h6><a href="" class="fw-900">好了夢想傳播心情，痛苦彼。</a></h6><p class="text-truncate">萬華活動長期偉大觀察一時背景不太空間內置門派規劃以為英語，上午生命求購有的眼光就業，觀念一次我要有個魔獸不對，寫真自主做好業主請點擊出租基金請您一方面。</p></div></div>';
+                
+                $("#navdata").html(strHTML);
+                
+            });
+            $("#nav03").hover(function(){
+                console.log("nav03");
+                $("#nav01 a").removeClass("active");
+                $("#nav02 a").removeClass("active");
+                $("#nav03 a").addClass("active");
+
+                var strHTML = '<div class="row"><div class="col-md-7"><img src="./img/cake06.jpg" class="img-fluid mb-1" alt=""><div class="row"><div class="col-md-6 pe-1"><img src="./img/cake01.jpg" class="img-fluid" alt=""></div><div class="col-md-6 ps-1"><img src="./img/cake06.jpg" class="img-fluid" alt=""></div></div></div><div class="col-md-5 text-start"><h6><a href="" class="fw-900"><i class="bi bi-play-circle-fill"></i>好了夢想傳播心情，痛苦彼。</a></h6><p class="text-truncate">萬華活動長期偉大觀察一時背景不太空間內置門派規劃以為英語，上午生命求購有的眼光就業，觀念一次我要有個魔獸不對，寫真自主做好業主請點擊出租基金請您一方面。</p><h6><a href="" class="fw-900">好了夢想傳播心情，痛苦彼。</a></h6><p class="text-truncate">萬華活動長期偉大觀察一時背景不太空間內置門派規劃以為英語，上午生命求購有的眼光就業，觀念一次我要有個魔獸不對，寫真自主做好業主請點擊出租基金請您一方面。</p><h6><a href="" class="fw-900">好了夢想傳播心情，痛苦彼。</a></h6><p class="text-truncate">萬華活動長期偉大觀察一時背景不太空間內置門派規劃以為英語，上午生命求購有的眼光就業，觀念一次我要有個魔獸不對，寫真自主做好業主請點擊出租基金請您一方面。</p><h6><a href="" class="fw-900">好了夢想傳播心情，痛苦彼。</a></h6><p class="text-truncate">萬華活動長期偉大觀察一時背景不太空間內置門派規劃以為英語，上午生命求購有的眼光就業，觀念一次我要有個魔獸不對，寫真自主做好業主請點擊出租基金請您一方面。</p><h6><a href="" class="fw-900">好了夢想傳播心情，痛苦彼。</a></h6><p class="text-truncate">萬華活動長期偉大觀察一時背景不太空間內置門派規劃以為英語，上午生命求購有的眼光就業，觀念一次我要有個魔獸不對，寫真自主做好業主請點擊出租基金請您一方面。</p><h6><a href="" class="fw-900">好了夢想傳播心情，痛苦彼。</a></h6><p class="text-truncate">萬華活動長期偉大觀察一時背景不太空間內置門派規劃以為英語，上午生命求購有的眼光就業，觀念一次我要有個魔獸不對，寫真自主做好業主請點擊出租基金請您一方面。</p></div></div>';
+                
+                $("#navdata").html(strHTML);
+                
+            });
+
+        });
+    </script>
+</body>
+</html>
